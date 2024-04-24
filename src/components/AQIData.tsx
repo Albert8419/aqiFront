@@ -46,7 +46,7 @@ interface AQIResponse {
 
 const AQIComponent = () => {
   const [aqiData, setAqiData] = useState<AQIResponse | null>(null);
-  const backendUrl = 'https://silver-chainsaw-55x4pgvxg7rfj5g-3000.app.github.dev/api/aqi/london'; // URL to fetch AQI data for London
+  const backendUrl = 'https://silver-chainsaw-55x4pgvxg7rfj5g-3000.app.github.dev'; // URL to fetch AQI data for London
 
   useEffect(() => {
     const fetchData = async () => {
