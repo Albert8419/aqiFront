@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('https://silver-chainsaw-55x4pgvxg7rfj5g-3000.app.github.dev/api/aqi/london');
+        const response = await axios.get('https://silver-chainsaw-55x4pgvxg7rfj5g-3000.app.github.dev');
         setData(response.data);
         setLoading(false);
       } catch (error) {
